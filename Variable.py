@@ -4,15 +4,30 @@
 
 # print("Bijay")
 
-name = "Bijay"
-age = 12
-fruits = ['apple', 12]
+# name = "Bijay"
+# name = "Ram"
+# age = 12
+# fruits = ['apple', 12]
 # print(name)
 
+# a=b
 
+# a = 4
+# print(a)
 
-name = input("Enter your name:")
-# print("My name is", name)
-print(f"My name is {name}")
+# age = 15 
+# print("First age:", age)
+
+# age = 16
+# print("Value after change", age)
+
+NAME = "Bijay"
+name = "Ram"
+
+# print(NAME)
+print(name)
+# name = input("Enter your name:")
+# # print("My name is", name)
+# print(f"My name is {name}")
 
 # Data types
