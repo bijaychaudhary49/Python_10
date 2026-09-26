@@ -111,9 +111,13 @@ var1 = "Apple"
 # ste1 = {'uiha', "ha", "ha", "ha"} 
 # print(ste1)
 
-def sum():
-    a=2
-    b=3
-    print(a+b)
-sum()
-print("hello")
+# def sum():
+#     a=2
+#     b=3
+#     print(a+b)
+# sum()
+# print("hello")
+
+# var1 = fa
+# print(type(var1))
+

@@ -21,13 +21,24 @@
 # age = 16
 # print("Value after change", age)
 
-NAME = "Bijay"
-name = "Ram"
+# str = "computer science"
+# print(str[::-1])
+
+# pallindrome : string forward = backward 
+# for eg: madam
+
+# Write a program to check whether a string is palidrome or not
+# str = input("Enter the string ")
+# rev_str = str[::-1]
+# if(str == rev_str):
+#     print("Palindrome")
+# else:
+#     print("Not palindrome string")
 
 # print(NAME)
-print(name)
-# name = input("Enter your name:")
-# # print("My name is", name)
-# print(f"My name is {name}")
+# print(name)
+#name = input("Enter your name:")
+# print("My name is", name)
+#print(f"My name is {name}")
 
 # Data types

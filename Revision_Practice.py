@@ -136,21 +136,13 @@ def is_pass(marks):
 
 
 
-# Write a program to find simple interest
-# Write a program to find area of rectangle
-# Write a program to take name as input and print My name is user le deko name
-# Wirte a program to calculate average of any three number
-# Write a program to convert km into m
-# Write a program to calculate your shopping bill. (Ask for the price of three items and calculate the total bill.)
-# write a program to Take first name and last name separately and display the full name.
-# Write a program to create email generator
-# Write a program to enter marks of five subject of student and calculate the average marks, total marks, percentage
 
 
 # how to define function
 # we use keyword def
 
 # syntax: def function_name(paramters):
+
 
 
 
