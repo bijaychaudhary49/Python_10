@@ -48,6 +48,8 @@ Take a person's age and print:
 "Teenager" if age is 13–19
 "Adult" if age is 20 or above
 
+
+
 4.Largest of Two Numbers
 Take two numbers and print which one is larger.
 
@@ -60,6 +62,18 @@ take operator as input
 based on operator perform the calculation
 
 '''
+
+age = int(input("Ennter your age "))
+if(age <13):
+    print("Child")
+elif(age<=19):
+    print("Teenager")
+else:
+    print("Adult")
+
+# MOD operator = return remainder
+
+
 
 # Take a student's marks and print:
 
