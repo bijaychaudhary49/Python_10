@@ -1,9 +1,9 @@
-name1 = "Abha"
-name2 = "Ankit"
-name3 = "Alisha"
+# name1 = "Abha"
+# name2 = "Ankit"
+# name3 = "Alisha"
 
 
-list = ["Abha", "Ankit", "Alisha", "Akriti", "Aman","Bijay","Ram","Bijay"] #lsit = [1,2,3,4,]
+# list = ["Abha", "Ankit", "Alisha", "Akriti", "Aman","Bijay","Ram","Bijay"] #lsit = [1,2,3,4,]
 # list[0]="Jyoti"
 # print(list)
 # str = "Bijay"
@@ -44,18 +44,33 @@ list = ["Abha", "Ankit", "Alisha", "Akriti", "Aman","Bijay","Ram","Bijay"] #lsit
 
 # dictionery: data structure which store data in key-value pair
 # can be defined using curly bracket {}
-employee_details = {
-    "name": "Bijay",
-    "age":23,
-    "contact_number": 980000,
-    "address":"Ramgra,-10",
-}
+# employee_details = {
+#     "name": "Bijay",
+#     "age":23,
+#     "contact_number": 980000,
+#     "address":"Ramgra,-10",
+# }
 
-employee_details.update({"23":"45"})
+# employee_details.update({"23":"45"})
 # employee_details.pop("age")
 # employee_details.clear()
-print(employee_details)
+# print(employee_details)
 
 # A = {1,2,3,4}
 # B={3,4,5,6}
 # print(A.union(B))
+# print(list[-1])
+
+# numbers = [1, 2, 2, 3, 4, 4, 5]
+# print(set(numbers))
+
+students = {
+    "Ram": 80,
+    "Sita": 90,
+    "Hari": 75
+}
+print(students.keys())
+
+# for name, marks in students.items():
+#     print(name)
+#     print(marks)

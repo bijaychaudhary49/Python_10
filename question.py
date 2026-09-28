@@ -64,12 +64,15 @@ based on operator perform the calculation
 '''
 
 age = int(input("Ennter your age "))
-if(age <13):
+if(age>0 and age < 13):
     print("Child")
-elif(age<=19):
+elif(age>=13 and age<=19):
     print("Teenager")
-else:
+elif (age>19):
     print("Adult")
+else:
+    print("You enter wrong age or negative value")
+
 
 # MOD operator = return remainder
 
