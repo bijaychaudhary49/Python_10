@@ -64,7 +64,7 @@ based on operator perform the calculation
 '''
 
 age = int(input("Ennter your age "))
-if(age>0 and age < 13):
+if(age>=0 and age < 13):
     print("Child")
 elif(age>=13 and age<=19):
     print("Teenager")
@@ -103,7 +103,7 @@ else:
 #     print("Fail")
 
 
-
+print(range(0,5))
 
 
 
