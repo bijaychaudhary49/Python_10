@@ -61,12 +61,79 @@
 # import pandas as p
 # print(p.sqrt(9))
 
-import pandas as pd
+# nested loop = loop inside loop, this is called nested loop
+# outer loop = external loop
+# inner loop = internal loop
 
-data = pd.DataFrame({
-    "Name": ["Ram", "Sita"],
-    "Age": [20, 21]
-})
 
-print(data)
+# for i in range(5):
+#     for j in range(4 - i, -1, -1):
+#         print(j, end="")
+#     print()
 
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print("*", end=" ")
+#     print()
+
+# for i in range(5,0,-1):
+#     print("*"*i)
+
+# for loop through list
+
+fruits = ["apple", "banana", "mango", "litchi"]
+set = {"apple", "banana", "mango", "litchi"}
+tup = ("apple", "banana", "mango", "litchi")
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+# print(fruits[3])
+
+# dict = {
+#     "name":"Bijay",
+#     "age":23,
+#     "address":"Ramgram-10"
+# }
+# items = dict.items()
+
+# for key,value in items:
+#     print(key, value )
+
+# print(list(range(5)))
+# for i in range(5):
+#     print(i)
+
+# for i in range(4,-1,-1):
+#     print(i)
+
+
+# Write a program to enter name and marks of students in a dictionery and print the name of students who are pass
+# Write a program to store number in a list and print the number which are greater than 35
+# list = []
+# list.append("bijay")
+# print(list)
+# list = [0,1,2,3,4]
+
+# list[0]=5
+# print(list)
+# dict["name"]=value
+
+
+
+# students={}
+# num = int(input("Enter the number of student "))
+# for i in range(num):
+#     name=input("enter the name of student ")
+#     mark=int(input("Enter the mark of student"))
+#     students[name]=mark
+
+# for name,marks in students.items():
+#      if(marks>=35):
+#           print(name)
+
+# for num in list:
+
+for i in range(5):
+    for j in range(4,i-1,-1):
+        print(j, end='')
+    print()
