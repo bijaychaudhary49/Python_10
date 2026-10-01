@@ -104,19 +104,19 @@
 # Bug: error or mistakes in program is called bug
 # The process of correcting the bug or mistakes in program is called debugging
 
-num = input("ENter the number ")
-if(num == "1"):
-    print("One")
-elif(num=="2"):
-    print("Two")
-elif(num=="3"):
-    print("Three")
-elif(num=="4"):
-    print("Four")
-elif(num=="5"):
-    print("Five")
-else:
-    print("Invalid")
+# num = input("ENter the number ")
+# if(num == "1"):
+#     print("One")
+# elif(num=="2"):
+#     print("Two")
+# elif(num=="3"):
+#     print("Three")
+# elif(num=="4"):
+#     print("Four")
+# elif(num=="5"):
+#     print("Five")
+# else:
+#     print("Invalid")
 
 '''
 

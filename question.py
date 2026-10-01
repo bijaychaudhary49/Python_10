@@ -63,15 +63,15 @@ based on operator perform the calculation
 
 '''
 
-age = int(input("Ennter your age "))
-if(age>=0 and age < 13):
-    print("Child")
-elif(age>=13 and age<=19):
-    print("Teenager")
-elif (age>19):
-    print("Adult")
-else:
-    print("You enter wrong age or negative value")
+# age = int(input("Ennter your age "))
+# if(age>=0 and age < 13):
+#     print("Child")
+# elif(age>=13 and age<=19):
+#     print("Teenager")
+# elif (age>19):
+#     print("Adult")
+# else:
+#     print("You enter wrong age or negative value")
 
 
 # MOD operator = return remainder
@@ -103,7 +103,7 @@ else:
 #     print("Fail")
 
 
-print(range(0,5))
+# print(range(0,5))
 
 
 

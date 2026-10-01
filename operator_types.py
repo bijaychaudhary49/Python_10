@@ -45,10 +45,10 @@
 # else:
 #     print("The letter you entered is consonant")
 
-# 0<a and 100>a
+# # 0<a and 100>a
 
-num = int(input("ENter a number "))
-if(num>0 and num<100):
-    print("The number lies in between 0 and 100")
-else:
-    print("The number lies beyond the range")
+# num = int(input("ENter a number "))
+# if(num>0 and num<100):
+#     print("The number lies in between 0 and 100")
+# else:
+#     print("The number lies beyond the range")

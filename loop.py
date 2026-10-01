@@ -60,3 +60,13 @@
 
 # import pandas as p
 # print(p.sqrt(9))
+
+import pandas as pd
+
+data = pd.DataFrame({
+    "Name": ["Ram", "Sita"],
+    "Age": [20, 21]
+})
+
+print(data)
+
