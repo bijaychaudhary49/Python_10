@@ -1,6 +1,6 @@
 # How to print anything
-# name="ANku"
-# print("When name contain anku", name)
+# name="ram"
+# print("When name contain ram", name)
 # name="Bijay"
 # print("When name contain Bijay", name)
 

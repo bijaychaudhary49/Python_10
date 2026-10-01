@@ -78,7 +78,7 @@ var1 = "Apple"
 # name = "BIJAY KUMAR CHAUDHARY"
 # num =123456789
 
-# print(name.replace("BIJAY KUMAR CHAUDHARY","ANKU"))
+# print(name.replace("BIJAY KUMAR CHAUDHARY","Ram"))
 # print(type(name.split(" ")))
 
 # print(name.find("K"))
