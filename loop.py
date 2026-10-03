@@ -81,9 +81,9 @@
 
 # for loop through list
 
-fruits = ["apple", "banana", "mango", "litchi"]
-set = {"apple", "banana", "mango", "litchi"}
-tup = ("apple", "banana", "mango", "litchi")
+# fruits = ["apple", "banana", "mango", "litchi"]
+# set = {"apple", "banana", "mango", "litchi"}
+# tup = ("apple", "banana", "mango", "litchi")
 # print(fruits[0])
 # print(fruits[1])
 # print(fruits[2])
@@ -110,14 +110,14 @@ tup = ("apple", "banana", "mango", "litchi")
 # Write a program to enter name and marks of students in a dictionery and print the name of students who are pass
 # Write a program to store number in a list and print the number which are greater than 35
 
-number=[]
-n = int(input("Enter the number of number "))
-for i in range(n):
-    num = int(input("Enter the number "))
-    number.append(num)
-for x in number:
-    if(x>35):
-        print(x)
+# number=[]
+# n = int(input("Enter the number of number "))
+# for i in range(n):
+#     num = int(input("Enter the number "))
+#     number.append(num)
+# for x in number:
+#     if(x>35):
+#         print(x)
 
 # list = []
 # list.append("bijay")
@@ -201,6 +201,17 @@ for x in number:
 # Output
 # Sum of even number = value
 # Sum of odd number = value
+# even_sum=0
+# odd_sum=0
+# for i in range(1,101):
+#     if(i%2==0):
+#         even_sum += i #even_sum = even_sum + i
+#     else:
+#         odd_sum +=i
+# print("Sum of even number = ", even_sum)
+# print("Sum of odd number = ", odd_sum)
+
+
 
 # for loop and while loop
 
@@ -226,3 +237,10 @@ for x in number:
 # while i<3:
 #     print(students[i])
 #     i+=1
+
+student_info={}
+for i in range(2):
+    name=input("Enter your name")
+    age=input("enter your age")
+    student_info[name]=age
+print(student_info)
