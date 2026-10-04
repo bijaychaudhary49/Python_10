@@ -153,8 +153,39 @@
 
 # print(), input(), len(), int(), float(), str(), type()
 
-def sum(a=4,b=5):
-    c=a+b
-    print(c)
+# def sum(a=4,b=5):
+#     c=a+b
+#     print(c)
 
-sum(2,3)
+# sum(2,3)
+
+# palindrome : forward read = backward read eg: madam
+# str="Computer"
+# print(str[::-1])
+# Madam == madaM
+# str[]
+# str = input("Enter a word or string")
+# if (str.lower() == str.lower()[::-1] ):
+#     print("Palindrome")
+# else:
+#     print("Not palindrome")
+# list = ["bijay", "jahd",2,4]
+# print(len(list))
+ 
+str="Computer"
+i=len(str)-1
+rev_str=""
+while i>=0:    
+    rev_str = rev_str + str[i].lower()
+    i-=1
+    
+if(rev_str==str.lower()):
+    print("Palindrome")
+else:
+    print("Not palindrome")
+
+# create table student{
+# name 
+# }
+
+# select name from table
