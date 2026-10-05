@@ -51,3 +51,8 @@ def check_amstrong():
         print("The number is not an amstrong number")
 
 check_amstrong()
+
+# Write a function to calculate the area of square and volume of a cuboid
+# Write a function to check eligibility to vote (condition: must have citizenship and older than 18)
+# Write a function to count consonant letter in a word
+# Write a function to find greatest among three and two number
