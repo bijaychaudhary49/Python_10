@@ -172,20 +172,89 @@
 # list = ["bijay", "jahd",2,4]
 # print(len(list))
  
-str="Computer"
-i=len(str)-1
-rev_str=""
-while i>=0:    
-    rev_str = rev_str + str[i].lower()
-    i-=1
+# str="Computer"
+# i=len(str)-1
+# rev_str=""
+# while i>=0:    
+#     rev_str = rev_str + str[i].lower()
+#     i-=1
     
-if(rev_str==str.lower()):
-    print("Palindrome")
-else:
-    print("Not palindrome")
+# if(rev_str==str.lower()):
+#     print("Palindrome")
+# else:
+#     print("Not palindrome")
 
 # create table student{
 # name 
 # }
 
 # select name from table
+
+
+# def m(a,b):
+#     sum=a+b
+#     diff=a-b
+#     return sum, diff
+# print(m(2,3))
+
+# CSV file= comma separated value
+# Name, age, address
+# Bijay, 22, Ramgram
+
+import csv
+
+f = open("class_10.csv", "w", newline="")
+# data=[
+#     ["name","age","address"],
+#     ["Bijay","23","Ramgram"],
+#     ["Ram","23","Ramgram"],
+#     ["Prabin","23","Ramgram"],
+#     ["Bijay","23","Ramgram"],
+# ]
+# writer = csv.writer(f)
+# writer.writerow(["name","age","address"])
+# for i in range(4):
+#     name=input("enter name")
+#     age=input("enter age")
+#     address=input("enter address")
+#     writer.writerow([name,age,address])
+# # writer.writerows(data)
+# print("Data written succesfully")
+# f.close()
+
+'''
+for i in range(4)
+    name=input("enter name")
+    age=input("enter age")
+    address=input("enter address")
+    wirter.writerow([name,age,address])
+
+
+'''
+# with open("class_10.csv", "w", newline="") as f
+
+
+# :, ;
+
+# for n in range(1,8):
+#     if n%2==0:
+#         print(n)
+
+# a=10
+# b=2
+# print(a+b)
+
+age=23
+if age>18:
+    print('Eligible to vote')
+
+# SELECT name from Employee WHERE salary>40000 and salary<80000
+
+# Error: mistakes in program is called error/bug
+# types:
+# 1. syntax error
+# 2. runtime error
+# 3. logical error
+
+# Exception handling
+
