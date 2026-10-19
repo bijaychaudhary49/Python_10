@@ -250,11 +250,5 @@ if age>18:
 
 # SELECT name from Employee WHERE salary>40000 and salary<80000
 
-# Error: mistakes in program is called error/bug
-# types:
-# 1. syntax error
-# 2. runtime error
-# 3. logical error
 
-# Exception handling
 
