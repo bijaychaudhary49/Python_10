@@ -1,11 +1,11 @@
-# import pandas as pd
+import pandas as pd
 
-# data = pd.DataFrame({
-#     "Name": ["Ram", "Sita"],
-#     "Age": [20, 21]
-# })
+data = pd.DataFrame({
+    "Name": ["Ram", "Sita"],
+    "Age": [20, 21]
+})
 
-# print(data)
+print(data)
 
 # num = 6
 # c = 0
@@ -43,4 +43,4 @@
 
 
 
-print("*"*2)
+# print("*"*2)

@@ -70,10 +70,25 @@
 # print(list[4])
 
 # Q1. Ask the user for two numbers and divide the first by the second. If the second number is zero, 
-#       print "Cannot divide by zero!" instead of letting the program crash.
+#     print "Cannot divide by zero!" instead of letting the program crash.
 
-def print_each_num (list):
-    for i in list:
-        print(i)
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
+# if num2 == 0:
+#     print("Cannot divide by zero")
+# else:
+#     print(num1/num2)
 
-print_each_num([10,20])
+# try:
+#     num1 = int(input("Enter first number: "))
+#     num2 = int(input("Enter second number: "))
+#     print(num1/num2)
+# except ZeroDivisionError:
+#     print("Cann't divide by zero")
+
+# def print_each_num (list):
+#     for i in list:
+#         print(i)
+
+# print_each_num([10,20])
+

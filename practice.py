@@ -31,6 +31,8 @@
 #     area_rect = l * b
 #     return area_rect
 
+import practice
+print(rectangle_area(2,3))
 # print(f"Area of circle is {circle_area()} and rectangle is {rectangle_area()}")
 
 
