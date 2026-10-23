@@ -3,3 +3,5 @@ def yearly_fee(monthly_fee):
 
 def monthlyfee(tution, bus_fee):
     return tution+bus_fee
+
+monthlyfee(1200, 300)
