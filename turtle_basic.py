@@ -23,3 +23,15 @@ turtle.done()
 # Write a python program to create a square shape
 # Write a python program to create a rectangle shape
 # Write a python program to create a Triangle shape
+
+# import turtle
+
+t1 = turtle.Turtle() #Object initialization
+t2 = turtle.Turtle()
+
+# forward(200)
+# backward(200)
+
+# Classic, turtle, square, circle, triangle, arrow
+
+
