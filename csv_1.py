@@ -26,12 +26,12 @@
 # f.close()
 
 
-# import csv
+import csv
 
-# with open("students.csv","r") as f:
-#     data = csv.reader(f)
-#     for row in data:
-#         print(row)
+with open("students.csv","r") as f:
+    data = csv.reader(f)
+    for row in data:
+        print(row)
 
 
 

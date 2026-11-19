@@ -63,11 +63,10 @@
 # sum(a=2,b=3)
 
 # Return statement
-# def sum(a,b):
-    
-#     return a+b, a-b, a*b
-# var1,var2,var3 = sum(2,3)
-# print(var1,var2,var3)
+def sum(a,b):    
+    return a+b, a-b, a*b
+result = sum(2,3)
+print(result)
 
 # var1=2
 # var2=3

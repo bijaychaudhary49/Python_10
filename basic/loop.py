@@ -89,15 +89,15 @@
 # print(fruits[2])
 # print(fruits[3])
 
-# dict = {
-#     "name":"Bijay",
-#     "age":23,
-#     "address":"Ramgram-10"
-# }
-# items = dict.items()
+dict = {
+    "name":"Bijay",
+    "age":23,
+    "address":"Ramgram-10"
+}
+items = dict.items()
 
-# for key,value in items:
-#     print(key, value )
+for key,value in items:
+    print(key, value )
 
 # print(list(range(5)))
 # for i in range(5):
