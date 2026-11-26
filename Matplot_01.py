@@ -1,9 +1,13 @@
 import matplotlib.pyplot as plt
 
-x=[1,2,3,3,4,4,5]
-y=[2,3,5,6,7,8,9]
-plt.barh(x,y, color="green")
-plt.xlabel("X-cordinate")
-plt.ylabel("Y-coordinate")
-plt.title("X vs Y")
+subject = ["Maths","Science","Nepali"]
+marks=[30,20,60]
+# color=['red','blue','white']
+
+x=[1,2,3,4,5]
+y=[1,2,3,4,5]
+plt.bar(subject,marks)
+
+
+plt.title("marks per subject")
 plt.show()
